@@ -3,7 +3,6 @@ from paddle import Paddle
 from ball import Ball
 from scoreboard import ScoreBoard
 from playboard import PlayBoard
-from playsound import playsound
 
 screen = Screen()
 screen.title("PONG")
@@ -21,7 +20,6 @@ screen.onkey(left_paddle.move_up, "w")
 screen.onkey(left_paddle.move_down, "s")
 
 ball = Ball()
-
 scoreboard = ScoreBoard()
 playing_field = PlayBoard()
 
